@@ -32,4 +32,15 @@
 
     --text-body: #C8CDD0;
     --text-heading: #F9F9F9;
+
+    --leckerli-one: "Leckerli One", cursive;
+    --baloo-2: "Baloo 2", sans-serif;
+    --open-sans: "Open Sans", sans-serif;
+
+    --logo: normal 2,5rem/auto var(--leckerli-one);
+    --heading-md: bold 1,75rem/auto var(--baloo-2);
+    --heading-sm: bold 1,12rem/auto var(--baloo-2);
+    --body-md: normal 1rem/auto var(--open-sans);
+    --body-sm: normal 0,875rem/auto var(--open-sans);
+    --body-xs: normal 0,75rem/auto var(--open-sans);
 }
