@@ -1,0 +1,80 @@
+.color-picker {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+    justify-items: center;
+    gap: 1rem;
+
+    label {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+        border: .18rem solid transparent;
+        transition: border 0.2s;
+        padding: .3rem;
+        box-sizing: border-box;
+    }
+
+    label:has(input:checked) {
+        border: .18rem solid var(--brand-light);
+    }
+
+    input {
+        display: none;
+    }
+}
+
+.color-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.brand-light {
+    background-color: var(--brand-light);
+}
+
+.brand-light {
+    background-color: var(--brand-light);
+}
+
+.navy {
+    background: var(--navy);
+}
+
+.purple {
+    background: var(--purple);
+}
+
+.fuschia {
+    background: var(--fuschia);
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+.danger {
+    background-color: var(--danger);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.lime {
+    background-color: var(--lime);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.cyan {
+    background-color: var(--cyan);
+}

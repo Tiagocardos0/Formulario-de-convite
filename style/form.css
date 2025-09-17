@@ -1,0 +1,71 @@
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    border: none;
+    padding-inline: 1px;
+
+    legend {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+#fieldset-info {
+    legend {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        font: var(--body-xs);
+        color: var(--text-body);
+        margin-bottom: 12px;
+        display: block;
+    }
+}
+
+#fieldset-customization {
+    margin-top: 3rem;
+
+    legend {
+        margin-bottom: 1.5rem;
+    }
+
+    span {
+        font: var(--body-sm);
+        color: var(--text-body);
+    }
+}
+
+legend {
+    font: var(--heading-sm);
+    color: var(--text-heading);
+}
+
+textarea {
+    height: 8.5rem;
+    color: var(--text-body);
+    background-color: var(--input-base);
+    border: none;
+    outline: 1px solid var(--input-stroke);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    resize: none;
+}

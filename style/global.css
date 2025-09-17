@@ -1,46 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --brand-light: #59B2FF;
-    --brand-mid: #3487CF;
-    --brand-dark: #1D6FB6;
+  --brand-light: #59B2FF;
+  --brand-mid: #3487CF;
+  --brand-dark: #1D6FB6;
 
-    --purple: #B259FF;
-    --fuschia: #FF59F9;
-    --pink: #FF598B;
-    --orange: #FF8B59;
-    --yellow: #FFCD59;
-    --lime: #E1FF59;
-    --green: #59FF91;
-    --cyan: #59FFF9;
-    --navy: #6A59FF;
+  --purple: #B259FF;
+  --fuschia: #FF59F9;
+  --pink: #FF598B;
+  --orange: #FF8B59;
+  --yellow: #FFCD59;
+  --lime: #E1FF59;
+  --green: #59FF91;
+  --cyan: #59FFF9;
+  --navy: #6A59FF;
 
-    --danger: #FF5959;
+  --danger: #FF5959;
 
-    --input-base: #1C1F21;
-    --input-stroke: #363B40;
-    --input-placeholder: #869198;
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
 
-    --shape-brackground: #131516;
-    --shape-body: #212427;
-    --shape-button: #2D3136;
-    --shape-hover: #383D42;
+  --shape-brackground: #131516;
+  --shape-body: #212427;
+  --shape-button: #2D3136;
+  --shape-hover: #383D42;
 
-    --text-body: #C8CDD0;
-    --text-heading: #F9F9F9;
+  --text-body: #C8CDD0;
+  --text-heading: #F9F9F9;
 
-    --leckerli-one: "Leckerli One", cursive;
-    --baloo-2: "Baloo 2", sans-serif;
-    --open-sans: "Open Sans", sans-serif;
+  --leckerli-one: "Leckerli One", cursive;
+  --baloo-2: "Baloo 2", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
 
-    --logo: normal 2,5rem/auto var(--leckerli-one);
-    --heading-md: bold 1,75rem/auto var(--baloo-2);
-    --heading-sm: bold 1,12rem/auto var(--baloo-2);
-    --body-md: normal 1rem/auto var(--open-sans);
-    --body-sm: normal 0,875rem/auto var(--open-sans);
-    --body-xs: normal 0,75rem/auto var(--open-sans);
+  --logo: normal 2.5rem/normal var(--leckerli-one);
+  --heading-md: bold 1.75rem/normal var(--baloo-2);
+  --heading-sm: bold 1.12rem/normal var(--baloo-2);
+  --body-md: normal 1rem/normal var(--open-sans);
+  --body-sm: normal 0.875rem/normal var(--open-sans);
+  --body-xs: normal 0.75rem/normal var(--open-sans);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  background-color: var(--shape-body);
+  overflow: hidden;
+}
+
+#app {
+  width: 40rem;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 5rem;
+  padding-inline: .62rem;
+
+  h1 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+
+    margin-bottom: 2.5rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--input-base);
+  border-radius: 6px;
+  border: 1px solid var(--input-stroke);
 }

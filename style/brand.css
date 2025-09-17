@@ -1,0 +1,7 @@
+#brand {
+    background-image: url('../assets/Brand.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20rem;
+    height: 80%;
+}
