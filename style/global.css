@@ -66,9 +66,13 @@ body {
   h1 {
     font: var(--heading-md);
     color: var(--text-heading);
-
     margin-bottom: 2.5rem;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 ::-webkit-scrollbar {

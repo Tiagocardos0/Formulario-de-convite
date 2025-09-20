@@ -196,12 +196,22 @@
                     </label>
                 </div>
 
-                <div class="btn-dark-mode">
-                    <p>Claro</p>
-                    <label class="mode">
-                        <input type="checkbox" name="theme" value="light">
-                        <span class="slider-mode"></span>
-                    </label>
+                <div class="flex">
+                    <div class="btn-dark-mode">
+                        <p>Claro</p>
+                        <label class="mode">
+                            <input type="checkbox" name="theme" value="light">
+                            <span class="slider-mode"></span>
+                        </label>
+                    </div>
+                    <div class="file-upload">
+                        <input type="file" id="fileInput" />
+                        <button type="button" id="customBtn">
+                            <img src="./assets/icons/upload.png" alt="enviar">
+                            Selecionar
+                        </button>
+                        <span id="fileName">Nenhum arquivo selecionado</span>
+                    </div>
                 </div>
             </fieldset>
 

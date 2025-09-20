@@ -1,0 +1,44 @@
+/* CSS */
+.file-upload {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: sans-serif;
+}
+
+/* Esconde o input real */
+.file-upload input[type="file"] {
+    display: none;
+}
+
+/* Botão personalizado */
+#customBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 7.43rem;
+    height: 2.5rem;
+    padding: 0.65rem 0.75rem 0.65rem 0.75rem;
+    background-color: var(--shape-button);
+    color: white;
+    font: var(--body-sm);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    img {
+        width: 1rem;
+    }
+}
+
+#customBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Nome do arquivo */
+#fileName {
+    font-size: 0.9rem;
+    color: #333;
+}
