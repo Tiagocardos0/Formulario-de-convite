@@ -21,7 +21,7 @@
     padding: 0.65rem 0.75rem 0.65rem 0.75rem;
     background-color: var(--shape-button);
     color: white;
-    font: var(--body-sm);
+    font: var(--body-xs);
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;

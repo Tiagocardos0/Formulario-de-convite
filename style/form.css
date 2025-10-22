@@ -39,6 +39,10 @@ fieldset {
         margin-bottom: 12px;
         display: block;
     }
+
+    input {
+        width: 100%;
+    }
 }
 
 #fieldset-customization {
@@ -51,6 +55,10 @@ fieldset {
     span {
         font: var(--body-sm);
         color: var(--text-body);
+    }
+
+    .buttons {
+        margin-top: 1.75rem;
     }
 }
 
@@ -68,4 +76,66 @@ textarea {
     border-radius: 0.5rem;
     padding: 1rem;
     resize: none;
+}
+
+#contact {
+    margin-block: 3rem;
+
+    legend {
+        margin-bottom: 1.5rem;
+    };
+
+    #inputs-contact {
+        display: flex;
+        gap: 1rem;
+
+        div {
+            flex: 1;
+        }
+    }
+
+    input {
+        width: 100%;
+    }
+
+    label {
+        font: var(--body-xs);
+        color: var(--text-body);
+        margin-bottom: 12px;
+    }
+
+    input[type="email"],
+    input[type="number"] {
+        width: 100%;
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: var(--input-stroke);
+        margin: 3rem 0 2.5rem 0;
+    }
+}
+
+button#btn-generate {
+    width: 11rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: var(--brand-dark);
+    color: var(--text-heading);
+    font: var(--body-md);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    justify-self: end;
+
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }

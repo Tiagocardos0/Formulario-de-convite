@@ -60,7 +60,7 @@ body {
   width: 40rem;
   height: 100vh;
   overflow: auto;
-  padding-top: 5rem;
+  padding-block: 5rem;
   padding-inline: .62rem;
 
   h1 {
@@ -75,6 +75,8 @@ body {
   justify-content: space-between;
 }
 
+
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -83,4 +85,10 @@ body {
   background-color: var(--input-base);
   border-radius: 6px;
   border: 1px solid var(--input-stroke);
+}
+
+@media screen and (max-width: 700px) {
+  #brand {
+    display: none;
+  }
 }

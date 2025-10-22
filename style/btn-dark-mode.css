@@ -1,17 +1,16 @@
 .btn-dark-mode {
-    width: 7rem;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: .5rem;
-    
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: .5rem;
 
-    p {
-        font: var(--body-xs);
-        color: var(--text-heading);
-    }
-    
+  p {
+    font: var(--body-xs);
+    color: var(--text-heading);
+  }
+
 }
+
 .mode {
   position: relative;
   display: inline-block;
